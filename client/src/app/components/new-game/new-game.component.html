@@ -1,0 +1,8 @@
+<label for="teams">Number of Teams</label> <br>
+<input type="number" name="teams" placeholder="Teams"> <br>
+<label for="duration">Duration(Minutes)</label> <br>
+<input type="number" name="duration" placeholder="Duration(Minutes)" value="10"> <br>
+<label>Team Assignment</label> <br>
+<input type="radio" name="team-assignment" value="random" checked="checked"> Random <br>
+<input type="radio" name="team-assignment" value="user-chooses"> User Chooses <br>
+<button [routerLink]="['/game-status']">Create Game</button>
